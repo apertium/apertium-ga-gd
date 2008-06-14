@@ -9,5 +9,7 @@
 /apertium-ga-gd.ga.dix -text
 /apertium-ga-gd.gd-ga.t1x -text
 /apertium-ga-gd.gd.dix -text
+/apertium-ga-gd.post-ga.dix -text
+/apertium-ga-gd.post-gd.dix -text
 /autogen.sh -text
 /configure.ac -text
