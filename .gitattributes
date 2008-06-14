@@ -1,2 +1,6 @@
 * text=auto !eol
+/Makefile.am -text
+/README -text
 /apertium-ga-gd.ga-gd.dix -text
+/autogen.sh -text
+/configure.ac -text
