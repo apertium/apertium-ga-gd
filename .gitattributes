@@ -2,5 +2,6 @@
 /Makefile.am -text
 /README -text
 /apertium-ga-gd.ga-gd.dix -text
+/apertium-ga-gd.gd.dix -text
 /autogen.sh -text
 /configure.ac -text
