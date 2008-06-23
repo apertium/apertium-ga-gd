@@ -12,6 +12,7 @@
 /apertium-ga-gd.gd.dix~ -text
 /apertium-ga-gd.post-ga.dix -text
 /apertium-ga-gd.post-gd.dix -text
+/apertium-ga-gd.pre-ga.t1x -text
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
