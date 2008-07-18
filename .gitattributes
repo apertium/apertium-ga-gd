@@ -11,6 +11,8 @@
 /apertium-ga-gd.gd-ga.t1x -text
 /apertium-ga-gd.gd.dix -text
 /apertium-ga-gd.gd.dix~ -text
+/apertium-ga-gd.muta-ga.dix -text
+/apertium-ga-gd.muta-gd.dix -text
 /apertium-ga-gd.post-ga.dix -text
 /apertium-ga-gd.post-gd.dix -text
 /apertium-ga-gd.pre-ga.t1x -text
