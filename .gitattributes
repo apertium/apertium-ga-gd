@@ -21,4 +21,5 @@
 /autogen.sh -text
 /configure.ac -text
 /ga-gd.prob -text
+/gd-ga.prob -text
 /modes.xml -text
