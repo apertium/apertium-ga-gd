@@ -22,7 +22,6 @@
 /autogen.sh -text
 /configure.ac -text
 dev/sp.ga-new.txt.final.dix.chopped -text
-dev/vim-script.sh -text
 /dix.rnc -text
 /ga-gd.prob -text
 /gd-ga.prob -text
