@@ -23,7 +23,6 @@
 /autogen.sh -text
 /configure.ac -text
 dev/inconsistency.sh -text
-dev/sp.ga-new.txt.final.dix.chopped -text
 /dix.rnc -text
 /ga-gd.prob -text
 /gd-ga.prob -text
