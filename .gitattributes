@@ -23,6 +23,7 @@
 /apertium-ga-gd.pre-gd.t1x -text
 /autogen.sh -text
 /configure.ac -text
+dev/apertium-ga-gd.ga.dix.INFREQ -text
 dev/inconsistency.sh -text
 /dix.rnc -text
 /ga-gd.prob -text
