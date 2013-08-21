@@ -1,6 +1,6 @@
 DELIMITERS = "<.>" "<!>" "<?>" (sent); # end-of-sentence markers
 
-LIST Verb = vblex vbser;
+LIST Verb = vblex;
 LIST Vcop = (vbcop);
 
 LIST Imp = imp;
@@ -62,7 +62,7 @@ LIST DATIVEPREP = ("<([Aa][grs]|[Cc]huig|[Dd][eo]|[Ff]aoi|[Gg]an|[Gg]o|[Ll]e|[Ó
 SECTION
 
 SELECT (n f sg) IF (-1 ("i"ri pr)) (0 ("<bhfuil>"));
-SELECT (vbser pres) IF (0 ("<bhfuil>"));
+SELECT (vblex pres) IF (0 ("<bhfuil>"));
 
 SELECT (pr) IF (0 ("<thar>"ri));
 

@@ -6,7 +6,6 @@
     <sdef n="np"/>
     <sdef n="adj"/>
     <sdef n="vblex"/>
-    <sdef n="vbser"/>
     <sdef n="vbcop"  c="Copula"/>
     <sdef n="adv"/>
     <sdef n="pr"/>
@@ -10356,18 +10355,7 @@
       <e><p><l>bhiodh</l><r>bi<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>bhiodh</l><r>bi<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
-       
-    <pardef n="/bi__vbser">
-      <e><p><l>tha</l><r>bi<s n="vbser"/><s n="pres"/></r></p></e>
-      <e><p><l>bi</l><r>bi<s n="vbser"/><s n="pp"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>bi</l><r>bi<s n="vbser"/><s n="pp"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>bi</l><r>bi<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>bi</l><r>bi<s n="vbser"/><s n="pp"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>bidh</l><r>bi<s n="vbser"/><s n="fti"/></r></p></e>
-      <e><p><l>bi</l><r>bi<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>thibh</l><r>bi<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>bi</l><r>bi<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-    </pardef>
+
        <!-- This is copied from ga, CHECK IT -->     
     <pardef n="/is__vbcop">
       <e><p><l>is</l><r>is<s n="vbcop"/><s n="aff"/><s n="pres"/></r></p></e>
@@ -40601,7 +40589,6 @@
     <!-- SECTION: Verbs -->
     
     <e lm="is"><i/><par n="/is__vbcop"/></e>
- <!--    <e lm="bi"><i/><par n="/bi__vbser"/></e>-->
 
     <e lm="abaich"><i>aba</i><par n="aba/ich__vblex"/></e>
     <e lm="abair"><i></i><par n="/abair__vblex"/></e>

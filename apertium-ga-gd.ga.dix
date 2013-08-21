@@ -5,7 +5,6 @@
     <sdef n="np"/>
     <sdef n="adj"/>
     <sdef n="vblex"/>
-    <sdef n="vbser"/>
     <sdef n="vbcop"/>
     <sdef n="vpart"/>
     <sdef n="cnjcoo"/>
@@ -674,38 +673,6 @@
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
     </pardef>
 
-    <pardef n="/bí__vbser">
-      <!-- Gerund/Verbal noun -->
-      <e><p><l>bheith</l><r>bí<s n="vbser"/><s n="ger"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>bheith</l><r>bí<s n="vbser"/><s n="ger"/><s n="sg"/><s n="gen"/></r></p></e>
-      <!-- Past -->
-      <e><p><l>bhí</l><r>bí<s n="vbser"/><s n="past"/></r></p></e>
-      <e><p><l>raibh</l><r>bí<s n="vbser"/><s n="past"/><s n="dep"/></r>	</p></e>
-      <e><p><l>bhíomar</l><r>bí<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>bhíothas</l><r>bí<s n="vbser"/><s n="past"/><s n="impers"/><s n="sp"/></r></p></e>
-      <!-- Imperative -->
-      <e><p><l>bím</l><r>bí<s n="vbser"/><s n="imp"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>bí</l><r>bí<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>bíodh</l><r>bí<s n="vbser"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>bímis</l><r>bí<s n="vbser"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>bígí</l><r>bí<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>bídís</l><r>bí<s n="vbser"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
-      <!-- Present -->
-      <e><p><l>táim</l><r>bí<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>táimid</l><r>bí<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>tá</l><r>bí<s n="vbser"/><s n="pres"/></r></p></e>
-      <e><p><l>táthar</l><r>bí<s n="vbser"/><s n="pres"/><s n="impers"/><s n="sp"/></r></p></e>
-      <e><par n="initial-f_nullout"/><p>	  <l>uil</l>	  <r>bí<s n="vbser"/><s n="pres"/><s n="dep"/></r>	</p></e>
-      <e r="LR"><p><l>atáim</l><r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>atáimid</l><r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>atá</l><r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vbser"/><s n="pres"/></r></p></e>
-      <e r="LR"><p><l>atáthar</l><r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vbser"/><s n="pres"/><s n="impers"/><s n="sp"/></r></p></e>
-      <!-- Future -->
-      <e><p><l>beidh</l><r>bí<s n="vbser"/><s n="fti"/></r></p></e>
-      <e><p><l>beimid</l><r>bí<s n="vbser"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>beifear</l><r>bí<s n="vbser"/><s n="fti"/><s n="impers"/><s n="sp"/></r></p></e>
-    </pardef>
-
     <pardef n="lorg__vblex">
       <e><p><l>óidh</l><r><s n="vblex"/><s n="fti"/></r></p></e>
       <e><p><l>ófar</l><r><s n="vblex"/><s n="fti"/><s n="impers"/><s n="sp"/></r></p></e>
@@ -1202,8 +1169,8 @@
       <e><p><l>adh</l><r><s n="vblex"/><s n="past"/><s n="impers"/><s n="sp"/></r></p></e>
 
       <e><p><l>faidh</l><r><s n="vblex"/><s n="fti"/></r></p></e>
-      <e><p><l>far</l><r><s n="vblex"/><s n="fti"/><s n="impers"/><s n="sp"/></r></p></e>
       <e><p><l>faimid</l><r><s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>far</l><r><s n="vblex"/><s n="fti"/><s n="impers"/><s n="sp"/></r></p></e>
 
       <e><p><l>aim</l><r><s n="vblex"/><s n="imp"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l></l><r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1211,6 +1178,7 @@
       <e><p><l>aimis</l><r><s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>aigí</l><r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>aidís</l><r><s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>tar</l><r><s n="vblex"/><s n="imp"/><s n="impers"/><s n="sp"/></r></p></e>
 
       <e><p><l>fainn</l><r><s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>fá</l><r><s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1230,6 +1198,7 @@
 
       <e><p><l>a</l><r><s n="vblex"/><s n="prs"/></r></p></e>
       <e><p><l>aimid</l><r><s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>tar</l><r><s n="vblex"/><s n="prs"/><s n="impers"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="anam__n_m">
@@ -3821,6 +3790,7 @@
       <e><p><l>aímis</l><r>aigh<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>aígí</l><r>aigh<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>aídís</l><r>aigh<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>aítear</l><r>aigh<s n="vblex"/><s n="imp"/><s n="impers"/><s n="sp"/></r></p></e>
 
       <e><p><l>óinn</l><r>aigh<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ófá</l><r>aigh<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -3840,6 +3810,7 @@
 
       <e><p><l>aí</l><r>aigh<s n="vblex"/><s n="prs"/></r></p></e>
       <e><p><l>aímid</l><r>aigh<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>aítear</l><r>aigh<s n="vblex"/><s n="prs"/><s n="impers"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="dea/bhaidh__n_f">
@@ -5358,29 +5329,59 @@
       <e><p><l>arba</l><r>arb<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     </pardef>
 
-    <pardef n="b/í__vblex">
-      <e><p><l>eidh</l><r>í<s n="vblex"/><s n="fti"/></r></p></e>
-      <e><p><l>eifear</l><r>í<s n="vblex"/><s n="fti"/><s n="impers"/><s n="sp"/></r></p></e>
-      <e><p><l>eimid</l><r>í<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>eifí</l><r>í<s n="vblex"/><s n="cni"/><s n="impers"/><s n="sp"/></r></p></e>
-      <e><p><l>einn</l><r>í<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>eimis</l><r>í<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>eifeá</l><r>í<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>eadh</l><r>í<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>eadh</l><r>í<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>eidís</l><r>í<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>ím</l><r>í<s n="vblex"/><s n="imp"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ímis</l><r>í<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>í</l><r>í<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ígí</l><r>í<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>íodh</l><r>í<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ídís</l><r>í<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>íonn</l><r>í<s n="vblex"/><s n="pres"/></r></p></e>
-      <e><p><l>ítear</l><r>í<s n="vblex"/><s n="pres"/><s n="impers"/><s n="sp"/></r></p></e>
-      <e><p><l>ím</l><r>í<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ímid</l><r>í<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>raih</l><r>í<s n="vblex"/><s n="prs"/></r></p></e>
-      <e><p><l>rahaimid</l><r>í<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+    <pardef n="/bí__vblex">
+      <e><p><l>bheith</l><r>bí<s n="vblex"/><s n="ger"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>bheith</l><r>bí<s n="vblex"/><s n="ger"/><s n="sg"/><s n="gen"/></r></p></e>
+
+      <e><p><l>táim</l><r>bí<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>táimid</l><r>bí<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>tá</l><r>bí<s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>táthar</l><r>bí<s n="vblex"/><s n="pres"/><s n="impers"/><s n="sp"/></r></p></e>
+      <e><par n="initial-f_nullout"/><p><l>uil</l><r>bí<s n="vblex"/><s n="pres"/><s n="dep"/></r></p></e>
+      <e><par n="initial-f_nullout"/><p><l>uiltear</l><r>bí<s n="vblex"/><s n="pres"/><s n="dep"/><s n="impers"/><s n="sp"/></r></p></e>
+
+      <e r="LR"><p><l>atáim</l><r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>atáimid</l><r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>atá</l><r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vblex"/><s n="pres"/></r></p></e>
+      <e r="LR"><p><l>atáthar</l><r>a<s n="rel"/><s n="sp"/><j/>bí<s n="vblex"/><s n="pres"/><s n="impers"/><s n="sp"/></r></p></e>
+
+      <e><p><l>bhí</l><r>bí<s n="vblex"/><s n="past"/></r></p></e>
+      <e><p><l>bhíomar</l><r>bí<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>bhíothas</l><r>bí<s n="vblex"/><s n="past"/><s n="impers"/><s n="sp"/></r></p></e>
+      <e><p><l>raibh</l><r>bí<s n="vblex"/><s n="past"/><s n="dep"/></r></p></e>
+      <e><p><l>rabhthas</l><r>bí<s n="vblex"/><s n="past"/><s n="dep"/><s n="impers"/><s n="sp"/></r></p></e>
+
+      <e><p><l>beidh</l><r>bí<s n="vblex"/><s n="fti"/></r></p></e>
+      <e><p><l>beimid</l><r>bí<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>beifear</l><r>bí<s n="vblex"/><s n="fti"/><s n="impers"/><s n="sp"/></r></p></e>
+
+      <e><p><l>bím</l><r>bí<s n="vblex"/><s n="imp"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>bí</l><r>bí<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>bíodh</l><r>bí<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>bímis</l><r>bí<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>bígí</l><r>bí<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>bídís</l><r>bí<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>bítear</l><r>bí<s n="vblex"/><s n="imp"/><s n="impers"/><s n="sp"/></r></p></e>
+
+      <e><p><l>bheinn</l><r>bí<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>bheifeá</l><r>bí<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>bheadh</l><r>bí<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>bheimis</l><r>bí<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>bheadh</l><r>bí<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>bheidís</l><r>bí<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>bheifí</l><r>bí<s n="vblex"/><s n="cni"/><s n="impers"/><s n="sp"/></r></p></e>
+
+      <e><p><l>beinn</l><r>bí<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>beifeá</l><r>bí<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>beadh</l><r>bí<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>beimis</l><r>bí<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>beadh</l><r>bí<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>beidís</l><r>bí<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>beifí</l><r>bí<s n="vblex"/><s n="pii"/><s n="impers"/><s n="sp"/></r></p></e>
+
+      <e><p><l>raibh</l><r>bí<s n="vblex"/><s n="prs"/></r></p></e>
+      <e><p><l>rabhaimid</l><r>bí<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>rabhthar</l><r>bí<s n="vblex"/><s n="prs"/><s n="impers"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="F/ear__n_m">
@@ -10930,7 +10931,6 @@
     <e lm="inné"><i>inné</i><par n="anseo__adv"/></e>
     <e lm="inniu"><i>inniu</i><par n="anseo__adv"/></e>
     <e lm="cá"><i>cá</i><par n="cá__adv"/></e>
-    <e lm="bí"><par n="/bí__vbser"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -19161,7 +19161,7 @@
     <e lm="buail"><par n="initial-b"/><i>uail</i><par n="gin__vblex"/></e>
     <e lm="buamáil"><par n="initial-b"/><i>uamá</i><par n="pasá/il__vblex"/></e>
     <e lm="báigh"><par n="initial-b"/><i>á</i><par n="bá/igh__vblex"/></e>
-    <e lm="bí"><par n="initial-b"/><i></i><par n="b/í__vblex"/></e>
+    <e lm="bí"><par n="initial-b"/><i></i><par n="/bí__vblex"/></e>
     <e lm="cabhraigh"><par n="initial-c"/><i>abhr</i><par n="cúl/aigh__vblex"/></e>
     <e lm="caill"><par n="initial-c"/><i>aill</i><par n="fill__vblex"/></e>
     <e lm="cam"><par n="initial-c"/><i>am</i><par n="cúb__vblex"/></e>

@@ -17,7 +17,6 @@
     <sdef n="ij"/>
     <sdef n="adj"/>
     <sdef n="vblex"/>
-    <sdef n="vbser"/>
     <sdef n="vbcop"/>
     <sdef n="cnj"/> <!-- Plain conjunction? -->
     <sdef n="cnjcoo"/>
@@ -6966,7 +6965,6 @@
     <e r="LR"><p><l>veinéireach<s n="adj"/></l><r>drùiseil<s n="adj"/></r></p></e>
 
     <!-- Verbs -->
-    <e><p><l>bí<s n="vbser"/></l><r>bi<s n="vbser"/></r></p></e>
     <e><p><l>bí<s n="vblex"/></l><r>bi<s n="vblex"/></r></p></e>
     <e><p><l>is<s n="vbcop"/></l><r>is<s n="vbcop"/></r></p></e>
 
