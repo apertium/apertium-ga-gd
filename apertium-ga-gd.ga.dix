@@ -9269,9 +9269,9 @@
       <e><p><l>caimid</l><r>ic<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="Alba/in__n_f">
-      <e><p><l>n</l><r>in<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>in</l><r>in<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+    <pardef n="Alba/in__np">
+      <e><p><l>in</l><r>in<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>n</l><r>in<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="sleamh/ain__adj">
@@ -17031,6 +17031,7 @@
     <e lm="Éimin"><i>Éimin</i><par n="lé__n_f"/></e>
     <e lm="Éimíríocht"><i>Éimíríocht</i><par n="eang__n_f"/></e>
     <e lm="Éire"><par n="initial-vowel"/><i>Éir</i><par n="Éir/e__np"/></e>
+    <e lm="Albain"><par n="initial-vowel"/><i>Alba</i><par n="Alba/in__np"/></e>
     <e lm="Éireannach"><i>Éireanna</i><par n="dú/ch__n_m"/></e>
     <e lm="Éirne"><i>Éirne</i><par n="Eo__n"/></e>
     <e lm="Éisc"><i>Éisc</i><par n="ba__n_m"/></e>
