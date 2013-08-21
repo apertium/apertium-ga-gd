@@ -2,8 +2,11 @@
 <modes>
   <mode name="gd-ga" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="gd-ga.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="gd-ga.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="gd-ga.prob"/>
@@ -22,6 +25,43 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="gd-ga-morph" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="gd-ga.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="gd-ga-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="gd-ga.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="gd-ga.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="gd-ga-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="gd-ga.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="gd-ga.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gd-ga.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+
+
   
   <mode name="ga-gd" install="yes">
     <pipeline>
