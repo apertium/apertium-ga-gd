@@ -1187,10 +1187,19 @@
       <e><p><l>eann</l><r>eann<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
     </pardef>
 
-    <pardef n="cart__vblex">
+    <pardef n="iarr__vblex">
+      <e><p><l>aidh</l><r><s n="vblex"/><s n="ger"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>tha</l><r><s n="vblex"/><s n="pp"/></r></p></e>
       <e><p><l>faidh</l><r><s n="vblex"/><s n="fti"/></r></p></e>
       <e><p><l>far</l><r><s n="vblex"/><s n="fti"/><s n="impers"/><s n="sp"/></r></p></e>
       <e><p><l>faimid</l><r><s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>faí</l><r><s n="vblex"/><s n="cni"/><s n="impers"/><s n="sp"/></r></p></e>
+      <e><p><l>fainn</l><r><s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>faimis</l><r><s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>fá</l><r><s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>fadh</l><r><s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>fadh</l><r><s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>faidís</l><r><s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>adh</l><r><s n="vblex"/><s n="ger"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>aim</l><r><s n="vblex"/><s n="imp"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>aimis</l><r><s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -1198,11 +1207,22 @@
       <e><p><l>aigí</l><r><s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>adh</l><r><s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>aidís</l><r><s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="vblex"/><s n="past"/></r></p></e>
+      <e><p><l>amar</l><r><s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>adh</l><r><s n="vblex"/><s n="past"/><s n="impers"/><s n="sp"/></r></p></e>
+      <e><p><l>taí</l><r><s n="vblex"/><s n="pii"/><s n="impers"/><s n="sp"/></r></p></e>
+      <e><p><l>ainn</l><r><s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>aimis</l><r><s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>tá</l><r><s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>adh</l><r><s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>adh</l><r><s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>aidís</l><r><s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ann</l><r><s n="vblex"/><s n="pres"/></r></p></e>
-      <e><p><l>ar</l><r><s n="vblex"/><s n="pres"/><s n="impers"/><s n="sp"/></r></p></e>
+      <e><p><l>tar</l><r><s n="vblex"/><s n="pres"/><s n="impers"/><s n="sp"/></r></p></e>
       <e><p><l>aim</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>aimid</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r><s n="vblex"/><s n="prs"/></r></p></e>
+      <e><p><l>aimid</l><r><s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="anam__n_m">
@@ -19265,7 +19285,7 @@
     <e lm="guigh"><par n="initial-g"/><i>u</i><par n="f/igh__vblex"/></e>
     <e lm="géill"><par n="initial-g"/><i>éill</i><par n="fill__vblex"/></e>
     <e lm="ianaigh"><par n="initial-i"/><i>an</i><par n="ur/aigh__vblex"/></e>
-    <e lm="iarr"><par n="initial-i"/><i>arr</i><par n="éag__vblex"/></e>
+    <e lm="iarr"><par n="initial-i"/><i>arr</i><par n="iarr__vblex"/></e>
     <e lm="imdhíon"><par n="initial-i"/><i>mdhíon</i><par n="las__vblex"/></e>
     <e lm="imeaglaigh"><par n="initial-i"/><i>meagl</i><par n="ur/aigh__vblex"/></e>
     <e lm="imeasc"><par n="initial-i"/><i>measc</i><par n="ob__vblex"/></e>
