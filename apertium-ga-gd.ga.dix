@@ -19161,7 +19161,7 @@
     <e lm="buail"><par n="initial-b"/><i>uail</i><par n="gin__vblex"/></e>
     <e lm="buamáil"><par n="initial-b"/><i>uamá</i><par n="pasá/il__vblex"/></e>
     <e lm="báigh"><par n="initial-b"/><i>á</i><par n="bá/igh__vblex"/></e>
-    <e lm="bí"><par n="initial-b"/><i></i><par n="/bí__vblex"/></e>
+    <e lm="bí"><par n="/bí__vblex"/></e>
     <e lm="cabhraigh"><par n="initial-c"/><i>abhr</i><par n="cúl/aigh__vblex"/></e>
     <e lm="caill"><par n="initial-c"/><i>aill</i><par n="fill__vblex"/></e>
     <e lm="cam"><par n="initial-c"/><i>am</i><par n="cúb__vblex"/></e>
