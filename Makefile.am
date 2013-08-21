@@ -18,7 +18,6 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX2).t1x.bin \
      $(PREFIX1).rlx.bin \
      $(PREFIX2).rlx.bin \
-     $(PREFIX1).mode $(PREFIX2).mode \
      $(PREFIX1).automut.bin \
      $(PREFIX2).automut.bin
 
@@ -116,38 +115,28 @@ clean-dicts:
 	rm $(BASENAME).$(LANG1).dix
 	rm $(BASENAME).$(LANG2).dix
 	rm $(BASENAME).$(PREFIX1).dix
-	
+
 apertium_ga_gddir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_ga_modesdir=$(prefix)/share/apertium/modes/
 
-$(PREFIX1).mode: modes.xml 
+modes/$(PREFIX1).mode: modes.xml
+	apertium-validate-modes modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
-$(PREFIX2).mode: modes.xml 
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
+apertium_ga_gd_DATA=$(TARGETS_COMMON) \
+                    $(PREFIX1).prob \
+                    $(PREFIX2).prob \
+		    modes.xml
 
-apertium_ga_gd_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-                    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
-                    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
-                    $(PREFIX1).autopgen.bin \
-                    $(PREFIX2).autopgen.bin \
-                    $(PREFIX1).prob $(PREFIX2).prob \
-     		    pre-$(LANG1).t1x.bin \
-     		    pre-$(LANG2).t1x.bin \
-		    $(PREFIX1).t1x.bin \
-		    $(PREFIX1).t2x.bin \
-		    $(PREFIX1).t3x.bin \
-		    $(PREFIX2).t1x.bin \
-     		    $(PREFIX1).rlx.bin \
-     		    $(PREFIX2).rlx.bin \
-     		    $(PREFIX1).automut.bin \
-     		    $(PREFIX2).automut.bin \
-	            $(PREFIX1).mode $(PREFIX2).mode modes.xml
-		  
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
+
 install-data-local:
+	mv modes modes.bak
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
+	rm -rf modes
+	mv modes.bak modes
 	test -d $(DESTDIR)$(apertium_ga_modesdir) || mkdir $(DESTDIR)$(apertium_ga_modesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_ga_modesdir)
 	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_ga_modesdir)
@@ -157,6 +146,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_ga_gddir)
 	$(INSTALL_DATA) $(BASENAME).pre-$(LANG1).t1x $(DESTDIR)$(apertium_ga_gddir)
 	$(INSTALL_DATA) $(BASENAME).pre-$(LANG2).t1x $(DESTDIR)$(apertium_ga_gddir)
-	cp *.mode modes/
 
-CLEANFILES = -rf $(TARGETS_COMMON) modes
+CLEANFILES = $(TARGETS_COMMON)
+clean-local: 
+	-rm -rf modes
