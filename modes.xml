@@ -30,6 +30,31 @@
     </pipeline>
   </mode>
 
+  <mode name="gd-ga-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="gd-ga.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="gd-ga.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gd-ga.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-ga-gd.gd-ga.t1x"/>
+        <file name="gd-ga.t1x.bin"/>
+        <file name="gd-ga.autobil.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="gd-ga.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
   <mode name="gd-ga-morph" install="no">
     <pipeline>
       <program name="lt-proc -w">
