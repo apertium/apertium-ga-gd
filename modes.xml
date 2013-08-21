@@ -66,10 +66,10 @@
   
   <mode name="gd-ga-biltrans" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="gd-ga.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="gd-ga.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -88,10 +88,10 @@
 
   <mode name="gd-ga-chunker" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="gd-ga.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="gd-ga.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -110,10 +110,10 @@
 
   <mode name="gd-ga-interchunk" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="gd-ga.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="gd-ga.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -136,10 +136,10 @@
 
   <mode name="gd-ga-postchunk" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="gd-ga.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="gd-ga.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -169,10 +169,10 @@
 
   <mode name="ga-gd" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ga-gd.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="ga-gd.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -228,10 +228,10 @@
 
   <mode name="ga-gd-tagger" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ga-gd.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="ga-gd.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -242,10 +242,10 @@
 
   <mode name="ga-gd-biltrans" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ga-gd.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="ga-gd.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -264,10 +264,10 @@
 
   <mode name="ga-gd-chunker" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ga-gd.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="ga-gd.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -286,10 +286,10 @@
 
   <mode name="ga-gd-interchunk" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ga-gd.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="ga-gd.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
@@ -312,10 +312,10 @@
 
   <mode name="ga-gd-postchunk" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="ga-gd.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w">
         <file name="ga-gd.rlx.bin"/> 
       </program>
       <program name="apertium-tagger -g $2">
