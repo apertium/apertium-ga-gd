@@ -64,7 +64,105 @@
     </pipeline>
   </mode>
   
+  <mode name="gd-ga-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gd-ga.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="gd-ga.rlx.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gd-ga.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="gd-ga.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ga-gd.gd-ga.t1x"/>
+        <file name="gd-ga.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
+  <mode name="gd-ga-chunker" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gd-ga.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="gd-ga.rlx.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gd-ga.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="gd-ga.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ga-gd.gd-ga.t1x"/>
+        <file name="gd-ga.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="gd-ga-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gd-ga.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="gd-ga.rlx.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gd-ga.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="gd-ga.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ga-gd.gd-ga.t1x"/>
+        <file name="gd-ga.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-ga-gd.gd-ga.t2x"/>
+        <file name="gd-ga.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="gd-ga-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="gd-ga.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="gd-ga.rlx.bin"/> 
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="gd-ga.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="gd-ga.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ga-gd.gd-ga.t1x"/>
+        <file name="gd-ga.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-ga-gd.gd-ga.t2x"/>
+        <file name="gd-ga.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-ga-gd.gd-ga.t3x"/>
+        <file name="gd-ga.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
   
   <!-- ga→gd modes: -->
