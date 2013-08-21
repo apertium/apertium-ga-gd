@@ -13,6 +13,7 @@ LIST Gen = gen ;
 LIST Poss = (det pos);
 
 LIST Pres = pres ; 
+LIST Ger = ger ; 
 
 LIST THA = ("bi" pres);
 
@@ -37,3 +38,4 @@ REMOVE Poss IF (0 ("a")) (1C THA);
   # "a" can be possessive, relative and preposition.
   #     it isn't a possessive if it is followed by 'tha'.
 
+SELECT Ger IF (-1 ("ag")) (0 V);
