@@ -5177,6 +5177,7 @@
     <e><p><l>téamh<s n="n"/><s n="m"/></l><r>teòthadh<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>teampall<s n="n"/><s n="m"/></l><r>teampall<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>teanchair<s n="n"/><s n="f"/></l><r>teanchair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>teanga<s n="n"/><s n="f"/></l><r>cànan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>teangaire<s n="n"/><s n="m"/></l><r>teangair<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>teangaireacht<s n="n"/><s n="f"/></l><r>teangaireachd<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>teangeolaíocht<s n="n"/><s n="f"/></l><r>cànanachas<s n="n"/><s n="m"/></r></p></e>
@@ -5955,6 +5956,7 @@
     <e><p><l>daonna<s n="adj"/></l><r>daonndach<s n="adj"/></r></p></e>
     <e><p><l>daor<s n="adj"/></l><r>daor<s n="adj"/></r></p></e>
     <e><p><l>dara<s n="adj"/></l><r>dara<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>dara<s n="adj"/></l><r>dàrna<s n="adj"/></r></p></e>
     <e><p><l>dátheangach<s n="adj"/></l><r>dà-theangach<s n="adj"/></r></p></e>
     <e><p><l>deacair<s n="adj"/></l><r>deacair<s n="adj"/></r></p></e>
     <e><p><l>dea-chumtha<s n="adj"/></l><r>deagh-chruthach<s n="adj"/></r></p></e>
@@ -6925,7 +6927,8 @@
     <e><p><l>trí<s n="adj"/></l><r>trì<s n="adj"/></r></p></e>
     <e><p><l>triantánach<s n="adj"/></l><r>trì-cheàrnach<s n="adj"/></r></p></e>
     <e><p><l>tric<s n="adj"/></l><r>tric<s n="adj"/></r></p></e>
-    <e><p><l>tríú<s n="adj"/></l><r>trìtheamh<s n="adj"/></r></p></e>
+    <e><p><l>tríú<s n="adj"/></l><r>treas<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>tríú<s n="adj"/></l><r>tritheamh<s n="adj"/></r></p></e>
     <e><p><l>trócaireach<s n="adj"/></l><r>tròcaireach<s n="adj"/></r></p></e>
     <e><p><l>trom<s n="adj"/></l><r>trom<s n="adj"/></r></p></e>
     <e><p><l>tromchúiseach<s n="adj"/></l><r>trom-chuiseach<s n="adj"/></r></p></e>
@@ -7996,7 +7999,6 @@
     <e><p><l>Teach<s n="n"/><s n="m"/></l><r>Taigh<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Teachtaireacht<s n="n"/><s n="f"/></l><r>Teachdaireachd<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Teampall<s n="n"/><s n="m"/></l><r>Teampall<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Teanga<s n="n"/><s n="f"/></l><r>Cànan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Teorainn<s n="n"/><s n="f"/></l><r>Crìoch<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Tiarna<s n="n"/><s n="m"/></l><r>Tighearna<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Tiomna<s n="n"/><s n="m"/></l><r>Tiomnadh<s n="n"/><s n="m"/></r></p></e>
