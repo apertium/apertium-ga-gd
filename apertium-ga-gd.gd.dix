@@ -111,6 +111,12 @@
 
     <!-- SECTION: Mutations -->      
 
+    <pardef n="initial-vowel">
+      <e><p><l></l><r></r></p></e>
+      <e r="LR"><p><l>t-</l><r></r></p></e>
+      <e r="LR"><p><l>h-</l><r></r></p></e>
+    </pardef>
+
     <pardef n="initial-b">
       <e r="LR"><p><l>b</l><r>b</r></p></e>
       <e r="LR"><p><l>bh</l><r>b</r></p></e>
@@ -6730,13 +6736,6 @@
       <e><p><l>ladh</l><r>il<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
      
-    <pardef n="A/bhainn__n">
-      <e><p><l>bhainn</l><r>bhainn<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ibhne</l><r>bhainn<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ibhneachan</l><r>bhainn<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ibhneachan</l><r>bhainn<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-    </pardef>
-     
     <pardef n="fasta/idh__vblex">
       <e><p><l>idhte</l><r>idh<s n="vblex"/><s n="pp"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>idhte</l><r>idh<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -8852,6 +8851,12 @@
       <e><p><l>e</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
        <!-- check these --><e><p><l>e</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>e</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+    </pardef>
+
+    <pardef n="Gàidhlig__n">
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="RL"><p><l>e</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
      
     <pardef n="buil/ich__vblex">
@@ -33164,10 +33169,10 @@
     <e lm="is"><i>is</i><par n="agus__cnjcoo"/></e>
     <e lm="ach"><i>ach</i><par n="agus__cnjcoo"/></e>
     <e lm="gun"><i>gun</i><par n="gun__cnjsub"/></e>
+    <e lm="chum"><i>chum</i><par n="gun__cnjsub"/></e>
 
     <!-- I think this is right, at least -->
     <e lm="gum" r="LR"><p><l>gum</l><r>gun</r></p><par n="gun__cnjsub"/></e>
-    <e lm="chun"><i>chun</i><par n="gun__cnjsub"/></e>
     <e lm="mar"><i>mar</i><par n="gun__cnjsub"/></e>
     <e lm="ach"><i>ach</i><par n="gun__cnjsub"/></e>
     <e lm="nuair"><i>nuair</i><par n="nuair__cnjadv"/></e>
@@ -37189,6 +37194,7 @@
     <e lm="pòrasachd"><par n="initial-p"/><i>òrasachd</i><par n="rè__n"/></e>
     <e lm="pòsadh"><par n="initial-p"/><i>òsa</i><par n="àra/dh__n"/></e>
     <e lm="pùdar"><par n="initial-p"/><i>ùda</i><par n="pò/r__n"/></e>
+    <e lm="riaghaltas"><i>riaghalta</i><par n="nò/s__n"/></e>
     <e lm="sabaid"><par n="initial-s"/><i>abaid</i><par n="pit__n"/></e>
     <e lm="sabhal"><par n="initial-s"/><i>abha</i><par n="tà/l__n"/></e>
     <e lm="sabhs"><par n="initial-s"/><i>a</i><par n="sa/bhs__n"/></e>
@@ -38797,7 +38803,7 @@
     <e lm="Turcach"><par n="initial-T"/><i>urca</i><par n="lao/ch__n"/></e>
     <e lm="Síle"><par n="initial-S"/><i>íle</i><par n="Máire__np"/></e>
     <e lm="Afraga"><i>Afraga</i><par n="Libia__np"/></e>
-    <e lm="Alba"><i>Alba</i><par n="Alba__np"/></e>
+    <e lm="Alba"><par n="initial-vowel"/><i>Alba</i><par n="Alba__np"/></e>
     <e lm="Badhlach"><par n="initial-B"/><i>adhla</i><par n="lao/ch__n"/></e>
     <e lm="Baisteach"><par n="initial-B"/><i>aist</i><par n="f/each__n"/></e>
     <e lm="Barrach"><par n="initial-B"/><i>arra</i><par n="lao/ch__n"/></e>
@@ -38888,7 +38894,7 @@
     <e lm="Grèig"><par n="initial-G"/><i>rèig</i><par n="rè__n"/></e>
     <e lm="Gàidheal"><par n="initial-G"/><i>àidhe</i><par n="Gàidhe/al__n"/></e>
     <e lm="Gàidhealtachd"><par n="initial-G"/><i>àidhealtachd</i><par n="rè__n"/></e>
-    <e lm="Gàidhlig"><par n="initial-G"/><i>àidhlig</i><par n="min__n"/></e>
+    <e lm="Gàidhlig"><par n="initial-G"/><i>àidhlig</i><par n="Gàidhlig__n"/></e>
     <e lm="Gúm"><par n="initial-G"/><i>úm</i><par n="gò__n"/></e>
     <e lm="Laideann"><par n="initial-L"/><i>aid</i><par n="ait/eann__n"/></e>
     <e lm="Laplannach"><par n="initial-L"/><i>aplanna</i><par n="lao/ch__n"/></e>
