@@ -1,8 +1,8 @@
 DELIMITERS = "<.>" ; 
 
-LIST N = n ;
-LIST Art = (det def) ; 
-LIST Pr = pr ; 
+LIST N = (n);
+LIST Art = (det def);
+LIST Pr = pr;
 LIST V = vblex ; 
 LIST CS = cnjsub ; 
 
@@ -17,10 +17,16 @@ LIST Ger = ger ;
 
 LIST THA = ("bi" pres);
 
+LIST LENITED  = ("<[bcdfgmpst]h.*>"r "[bcdfgmpst][^h].*"r);
+LIST ART-LENITED  = ("<[bcgmp]h.*>"r "[bcgmp][^h].*"r);
+
 SET NDG = Nom | Gen | Dat ; 
 SET CLB = CS | (".") ; 
 
 SECTION
+
+SELECT Art IF (0 ("<a'>")) (1 N) (1 ART-LENITED)
+SELECT Pr IF (0 ("<a'>")) (1 Ger)
 
 SELECT Pr IF (0 ("do")) (1C Dat);
   # "do" is ambiguous between possessive and preposition. select the preposition
