@@ -10,6 +10,9 @@
      <cat-item tags="adj"/>
      <cat-item tags="adj.*"/>
   </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="vblex.*"/>
+    </def-cat>
     <def-cat n="pr_cont">
       <cat-item lemma="do" tags="pr"/>
       <cat-item lemma="le" tags="pr"/>
@@ -61,6 +64,14 @@
     <attr-item tags="p1"/>
     <attr-item tags="p2"/>
     <attr-item tags="p3"/>
+  </def-attr>
+  <def-attr n="temps">
+    <attr-item tags="pres"/>
+    <attr-item tags="past"/>
+    <attr-item tags="imp"/>
+    <attr-item tags="cni"/>
+    <attr-item tags="pii"/>
+    <attr-item tags="prs"/>
   </def-attr>
 </section-def-attrs>
 
@@ -117,7 +128,64 @@
         </out>
       </action>
     </rule>
-
+    <rule comment="REGLA: VERB + PRN (tha sinn → táimid)">
+      <pattern>
+        <pattern-item n="verb"/>
+	<pattern-item n="prn_cont"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <or>
+                <and>
+                  <equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="pres"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="pers"/>
+                    <lit-tag v="p1"/>
+                  </equal>
+                </and>
+                <and>
+                  <equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="past"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="pers"/>
+                    <lit-tag v="p1"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="nbr"/>
+                    <lit-tag v="pl"/>
+                  </equal>
+                </and>
+              </or>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+                <clip pos="2" side="tl" part="pers"/>
+                <clip pos="2" side="tl" part="nbr"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out> <!-- Output the literal verb and pronoun -->
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
 
 </section-rules>
 
