@@ -1,7 +1,3 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
-
 AC_PREREQ(2.52)
 
 m4_define([required_apertium_version], [3.0.0])
@@ -35,5 +31,6 @@ then
   AC_MSG_ERROR([You don't have cg-proc installed.])
 fi
 
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
