@@ -1,0 +1,8 @@
+[0p0F4jhyugTf#0] ^feiceann/feic<vblex><pres>$ ^tú/prpers<prn><subj><p2><mf><sg>$
+[/0p0F4jhyugTf]
+[3iGin4pOU5lK#0] ^an/an<vpart>/is<vbcop><itg><pres>/an<det><def><sg><nom>/an<det><def><sg><dat>/an<det><def><sg><gen>$ ^maith/maith<vblex><past>/maith<n><f><sg><nom>/maith<adj><mf><sg><nom>/maith<adj><m><sg><gen>/maith<vblex><imp><p2><sg>$ ^leis/le<pr>+prpers<prn><obj><p3><m><sg>$ ^úlla/úll<n><m><pl><nom>$
+[/3iGin4pOU5lK]
+[eCI-qCnjqc4S#0] ^an/an<vpart>/is<vbcop><itg><pres>/an<det><def><sg><nom>/an<det><def><sg><dat>/an<det><def><sg><gen>$ ^chiclipéid/ciclipéid<n><f><sg><nom>$ ^shaor/saor<vblex><past>/saor<n><m><sg><nom>/saor<n><m><pl><gen>/saor<adj><mf><sg><nom>/saor<vblex><imp><p2><sg>$ ^is/is<cnjcoo>/is<vbcop><aff><pres>$ ^féidir/féidir<n><mf><sg><nom>$
+[/eCI-qCnjqc4S]
+[o0-Nv55BALUQ#0] ^lá/lá<n><m><sg><nom>$ ^breá/breá<adj><mf><sg><nom>/breá<adj><m><sg><gen>$ ^áigin/*áigin$
+[/o0-Nv55BALUQ]

@@ -122,17 +122,20 @@ apertium_ga_gddir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_ga_gd_DATA=$(TARGETS_COMMON) \
                     $(PREFIX1).prob \
                     $(PREFIX2).prob \
+					$(BASENAME).$(PREFIX1).t1x \
+					$(BASENAME).$(PREFIX1).t2x \
+					$(BASENAME).$(PREFIX1).t3x \
+					$(BASENAME).$(PREFIX2).t1x \
+					$(BASENAME).pre-$(LANG1).t1x \
+					$(BASENAME).pre-$(LANG2).t1x \
 		    modes.xml
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
 install-data-local: install-modes
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_ga_gddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_ga_gddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_ga_gddir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_ga_gddir)
-	$(INSTALL_DATA) $(BASENAME).pre-$(LANG1).t1x $(DESTDIR)$(apertium_ga_gddir)
-	$(INSTALL_DATA) $(BASENAME).pre-$(LANG2).t1x $(DESTDIR)$(apertium_ga_gddir)
 
 CLEANFILES = $(TARGETS_COMMON)
+
+test: all
+	apertium-regtest test

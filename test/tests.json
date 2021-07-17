@@ -1,0 +1,10 @@
+{
+    "ga-gd-pending": {
+        "input": "ga-gd-pending-input.txt",
+        "mode": "ga-gd"
+    },
+    "ga-gd-regression": {
+        "input": "ga-gd-regression-input.txt",
+        "mode": "ga-gd"
+    }
+}

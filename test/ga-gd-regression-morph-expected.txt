@@ -1,0 +1,4 @@
+[F_37wHV0W-gu#0] ^do/do<pr>/do<det><pos><p2><mf><sg>$ ^theach/teach<n><m><sg><nom>$
+[/F_37wHV0W-gu]
+[Uz-5bYESj7v6#0] ^an/an<vpart>/is<vbcop><itg><pres>/an<det><def><sg><nom>/an<det><def><sg><dat>/an<det><def><sg><gen>$ ^fhir/fear<n><m><sg><gen>/fear<n><m><pl><nom>$
+[/Uz-5bYESj7v6]

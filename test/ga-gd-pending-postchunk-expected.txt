@@ -1,0 +1,8 @@
+[0p0F4jhyugTf#0] ^bi<vblex><pres>$ ^ag<pr>$ ^faic<vblex><ger><m><sg><nom>$ ^prpers<prn><subj><p2><mf><sg>$
+[/0p0F4jhyugTf]
+[3iGin4pOU5lK#0] ^is<vbcop><itg><pres>$ ^math<n><m><sg><nom>$ ^le<pr>+prpers<prn><obj><p3><m><sg>$ ^ubhal<n><m><pl><nom>$
+[/3iGin4pOU5lK]
+[eCI-qCnjqc4S#0] ^an<det><def><sg><nom>$ ^@ciclipéid<n><f><sg><nom>$ ^saor<adj><mf><sg><nom>$ ^is<vbcop><aff><pres>$ ^@féidir<n><mf><sg><nom>$
+[/eCI-qCnjqc4S]
+[o0-Nv55BALUQ#0] ^latha<n><m><sg><nom>$ ^brèagha<adj><mf><sg><nom>$ ^*áigin$
+[/o0-Nv55BALUQ]

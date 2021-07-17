@@ -1,0 +1,8 @@
+[0p0F4jhyugTf#0] ^bi<SV>{^bi<vblex><pres>$}$ ^ag_ger<SV>{^ag<pr>$ ^faic<vblex><ger><m><sg><nom>$}$ ^default<default>{^prpers<prn><subj><p2><mf><sg>$}$
+[/0p0F4jhyugTf]
+[3iGin4pOU5lK#0] ^default<default>{^is<vbcop><itg><pres>$}$ ^nom<SN><m><sg><nom>{^math<n><m><sg><nom>$}$ ^pr+prn<SN><p3>{^le<pr>+prpers<prn><obj><p3><m><sg>$}$ ^nom<SN><m><pl><nom>{^ubhal<n><m><pl><nom>$}$
+[/3iGin4pOU5lK]
+[eCI-qCnjqc4S#0] ^default<default>{^an<det><def><sg><nom>$}$ ^nom<SN><f><sg><nom>{^@ciclipéid<n><f><sg><nom>$}$ ^default<default>{^saor<adj><mf><sg><nom>$}$ ^default<default>{^is<vbcop><aff><pres>$}$ ^nom<SN><mf><sg><nom>{^@féidir<n><mf><sg><nom>$}$
+[/eCI-qCnjqc4S]
+[o0-Nv55BALUQ#0] ^nom<SN><m><sg><nom>{^latha<n><m><sg><nom>$}$ ^default<default>{^brèagha<adj><mf><sg><nom>$}$ ^unknown<unknown>{^*áigin$}$
+[/o0-Nv55BALUQ]
